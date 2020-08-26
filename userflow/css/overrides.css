@@ -1,0 +1,283 @@
+body {
+    background-image: none;
+    background-color: #444;
+}
+#next {
+  width: 100%;
+  height: 44px;
+  font-size: 19pt;
+}
+#email {
+    outline: none;
+    background-color: #fff !important;
+    background-image: none !important;
+    border-radius: 0.5rem !important;
+    box-shadow: 0px 2px 10px rgba(0,0,150,0.15);
+    color: #555;
+    display: inline-block;
+    font-size: 1em;
+    height: 50px;
+    line-height: 1.42857143;
+    padding: 6px 20px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;
+    width: 100% !important;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s !important;
+}
+
+.unified_container .row .panel-default, .self_asserted_container .row .panel-default {
+  padding: 40px 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color:#444;
+  height: 100%;
+}
+
+.unified_container .row .panel-default #api .intro {
+  display: block;
+  text-align: center;
+  color:#fff;
+}
+
+.unified_container .row .panel-default #api .localAccount .create p {
+  text-align: center;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+}
+
+.unified_container .row .panel-default #api .localAccount .entry .entry-item .password-label #forgotPassword {
+  position: relative;
+  bottom: 90px;
+  clear: right;
+  cursor: pointer;
+  float: right;
+  color:#2ad4ff;
+  text-align: right;
+}
+
+.unified_container .row .panel-default #api .social .accountButton {
+  background-size: 10% 70%;
+  background-position-x: 3%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  color:#000;
+  display: block;
+  font-size: 19px;
+  height: 44px;
+  width: 100%;
+  margin-left: auto;
+  box-shadow: 0 0px 30px 0px #333;
+}
+.unified_container .row .panel-default #api .localAccount .entry .buttons button {
+  background-image: none;
+  background-color: #2ad4ff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 400;
+  height: inherit;
+  line-height: 1.3333333;
+  margin-top: 2rem;
+  margin-right: 0px;
+  margin-bottom: 1.2rem;
+  margin-left: 0px;
+  padding: 10px 16px;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: inherit;
+  -moz-user-select: none;
+  -ms-touch-action: manipulation;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  color: #fff;
+  width: 100%;
+  box-shadow: 0 0px 30px 0px #333;
+}
+
+.unified_container .row .panel-default #api .localAccount .create #createAccount {
+  background-image: none;
+  background-color:#2ad4ff;;
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration:none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 400;
+  height: inherit;
+  line-height: 1.3333333;
+  margin-top: 2rem;
+  margin-right: 0px;
+  margin-bottom: 1.2rem;
+  margin-left: 0px;
+  padding: 10px 16px;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: inherit;
+  -moz-user-select: none;
+  -ms-touch-action: manipulation;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  color: #fff;
+  width: 100%;
+  box-shadow: 0 0px 30px 0px #333;
+}
+
+.unified_container .row .panel-default #api .localAccount .entry .buttons button:hover
+{
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #00aad5;
+}
+
+.unified_container .row .panel-default #api .localAccount .create #createAccount:hover
+{
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #00aad5;
+}
+
+.accountButton, .buttons button, .buttons button #continue, .buttons button #sendCode {
+  /* background-color: white; */
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 44px;
+  border: none;
+  font-size: 19px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: auto;
+  white-space: normal;
+  box-shadow: 0px 2px 10px rgba(0,0,150,0.15);
+}
+.buttons #continue {
+  margin: 0 auto;
+  width: 100%;
+  height: 44px;
+  font-size:19pt;
+  opacity: 1;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  font-size: 1em;
+  box-shadow: 0 0px 30px 0px #333;
+}
+.buttons #continue:disabled {
+  margin: 0 auto;
+  width: 100%;
+  height: 44px;
+  font-size:19pt;
+  opacity: .3;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  font-size: 1em;
+  box-shadow: 0 0px 30px 0px #333;
+}
+.accountButton, .sendCode, .verifyCode, .sendNewCode, .sendCode, .verifyCode, #continue {
+  background-color: #2ad4ff !important;
+  color:#fff;
+}
+#Apple {
+  background-image: url(../../assets/idp_logos/colored/apple.svg);
+  background-color: #fff !important;
+  color: #000 !important;  
+}
+#Apple:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+#Apple:hover {
+  background-image: url(../../assets/idp_logos/white/apple.svg);
+}
+.create p {
+  font-size: 19px;
+  color:#fff;
+}
+
+
+#SignInWithLogonNameExchange:hover {
+  background-color: #1662c7;
+}
+#AmazonExchange:hover {
+    background-color: #36474f !important;
+}
+#FacebookExchange {
+  background-color: #fff !important;
+}
+#FacebookExchange:hover {
+    background-color: #3B5595 !important;
+}
+#GitHubExchange:hover {
+    background-color: #0f0f0f !important;
+}
+#GoogleExchange {
+  background-color: #fff !important;
+}
+#GoogleExchange:hover {
+    background-color: #C64A29 !important;
+}
+
+#LinkedInExchange:hover {
+    background-color: #0274b3 !important;
+}
+#MicrosoftAccountExchange {
+  background-color: #fff !important;
+}
+#MicrosoftAccountExchange:hover {
+    background-color: #01a4ef !important;
+}
+#QQExchange:hover {
+    background-color: #1a97df !important;
+}
+#TwitterExchange:hover {
+    background-color: #1DA1F2 !important;
+}
+#WeChatExchange:hover {
+    background-color: #4cc522 !important;
+}
+#WeiboExchange:hover {
+    background-color: #e81123 !important;
+}
+
+.self_asserted_container .row .panel-default .panel-body #api #attributeVerification .error {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.unified_container .row .panel-default #api .localAccount .error {
+  color: #fff;
+  text-align: left;
+}
+.attrEntry {
+  color: #fff;
+}
+
+.buttons #cancel {
+  padding: 0;
+  margin-left: auto;
+  background: none;
+  border: 0;
+  width: 80px;
+  position: absolute;
+  background-color: transparent;
+  top: 2px;
+  left: 15px;
+  font-size: 1em;
+  color: #fff;
+  box-shadow: none;
+  text-align: left;
+}
